@@ -89,7 +89,7 @@ public class BatchCreateMain {
         String requestBody = JSON.toJSONString(cardRequest);
 
         // 发起 POST 请求并获取响应
-        HttpResponse response = HttpRequest.post(ConfigConstants.url)
+        HttpResponse response = HttpRequest.post(ConfigConstants.createImgUrl)
                 .body(requestBody)
                 .setReadTimeout(999999)
                 .setConnectionTimeout(999999)
