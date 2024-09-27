@@ -11,9 +11,9 @@ public class ConfigConstants {
     public static final String apiKey = "sk-9Zg5LKE9yMK3tvWRE594DfAf484d4bE6Be41B481A4C956A9";
 
     /**
-     * 使用模型，默认 claude-3.5
+     * 使用模型
      */
-    public static final String chatModel = "claude-3-5-sonnet-20240620";
+    public static final String chatModel = "gpt-4-0125-preview";
 
     /**
      * 这个不知道啥子意思就别动就可以了，一般不用改

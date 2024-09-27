@@ -21,7 +21,7 @@
 
 #### 1.2 配置 uri 和 apiKey
 
-在 ConfigConstants 这个类中配置 url、apiKey、chatModel，目前默认使用的是 claude-3-5-sonnet-20240620 模型，这个 apiKey 中已经放了 50 元的使用额度
+在 ConfigConstants 这个类中配置 url、apiKey、chatModel，这个 apiKey 中已经放了 50 元的使用额度
 
 ![image-20240927224336467](https://mrxc-1300093961.cos.ap-shanghai.myqcloud.com/mrxc-1300093961/typoraimage-20240927224336467.png)
 

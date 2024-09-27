@@ -37,7 +37,7 @@ public class BatchCreateMain {
                 System.out.println("text = " + text);
                 JSONObject jsonObject = JSON.parseObject(text);
                 List<SentenceCardRequest> sentenceList = jsonObject.getList("sentenceList", SentenceCardRequest.class);
-                String folderPath = "G:\\Code\\JAVA\\streamerCardApiDemo\\streamerCardApiDemo\\img\\" + jsonObject.getString("topicName");
+                String folderPath = ".\\img\\" + jsonObject.getString("topicName");
 
                 // 随机金句颜色
                 String color = "pure-color-"+ RandomUtil.randomInt(1,27);

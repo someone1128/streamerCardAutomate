@@ -62,7 +62,7 @@ public class SaveImageRequest {
             String uniqueFileName = IdUtil.simpleUUID() + ".png";
 
             // 指定文件夹路径
-            String folderPath = "G:\\Code\\JAVA\\streamerCardApiDemo\\streamerCardApiDemo\\img";
+            String folderPath = "G:\\Code\\JAVA\\streamerCardApiDemo\\img";
 
             // 创建文件夹对象
             File folder = new File(folderPath);
